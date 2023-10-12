@@ -364,7 +364,7 @@ a.theme-btn.style-four {
 a.theme-btn,
 .scroll-top,
 .what-experct-content {
-    background-color: #af69cd;
+    background-color: #deadf2;
 }
 
 .theme-btn:before,
@@ -1343,14 +1343,14 @@ img.mfp-img {
 .contact-info-item {
     display: flex;
     padding: 30px 40px;
-    background: #fff2f2;
+    background: #a57fb5 ;
     margin-bottom: 30px;
     align-items: center;
     transition: 0.5s;
 }
 
 .contact-info-item:hover {
-    background: #fbaaa9;
+    background: #af69cd;
     color: #FFFFFF;
 }
 
@@ -1366,7 +1366,7 @@ img.mfp-img {
     line-height: 72px;
     background: #FFFFFF;
     text-align: center;
-    color: #fbaaa9;
+    background: #a57fb5;
     font-size: 22px;
     transition: 0.5s;
     display: inline-block;
@@ -1396,7 +1396,7 @@ img.mfp-img {
     top: 0;
     opacity: 0;
     transition: 0.5;
-    background: #ffc9c8;
+    background: #ffffff ;
     transform: rotate(0deg);
 }
 
@@ -1413,10 +1413,10 @@ img.mfp-img {
 
 /*contact form*/
 .contact-form-inner {
-    background: #fff6f6;
+    background: hsl(283, 63%, 85%);
     padding: 100px;
     border-bottom: 10px solid;
-    border-color: #fbaaa9;
+    border-color: #af69cd;
     transform: translateY(250px);
     margin-top: -180px;
     position: relative;
@@ -1509,7 +1509,7 @@ img.mfp-img {
 /***************** 19. Footer Section  **************** */
 /****************************************************** */
 .footer-section {
-    background: #fff6f6;
+    background: hsl(283, 63%, 85%);
     position: relative;
 }
 
@@ -1584,7 +1584,7 @@ img.mfp-img {
     z-index: 2;
     padding: 20px 0;
     position: relative;
-    background: #ffecec;
+    background: #e4b4f8;
 }
 
 .copyright-inner {
