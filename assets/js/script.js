@@ -186,16 +186,15 @@
         }
         
         
-        /* initialize the contact page map on the "map" div with a given center and zoom*/
+        /*initialize the contact page map on the "map" div with a given center and zoom*/
         if($('#map').length !== 0){
             var map = L.map('map', {
-                center: [-6.185033, 106.798862],
-                zoom: 18,
+                center: [13.47418, -88.18557],
+                zoom: 19,
                 zoomControl: false,
                 scrollWheelZoom: true,
             });
-
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
         }
 
 
