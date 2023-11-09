@@ -187,32 +187,17 @@
         
         
         /*initialize the contact page map on the "map" div with a given center and zoom*/
-        let map;
 
-async function initMap() {
-  //@ts-ignore
-  const { Map } = await google.maps.importLibrary("maps");
-
-  map = new Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-}
-
-initMap();
-
-
-       /* if($('#map').length !== 0){
+       if($('#map').length !== 0){
             var map = L.map('map', {
                 center: [13.47418, -88.18557],
                 zoom: 19,
                 zoomControl: false,
                 scrollWheelZoom: true,
             });
-         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
+         L.tileLayer('https://{s}.maps.app.goo.gl/{z}/{x}/{y}.png', {}).addTo(map);
         
         }
-*/
 
     });
 
